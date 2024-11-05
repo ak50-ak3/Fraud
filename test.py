@@ -4,10 +4,10 @@ import joblib
 import numpy as np
 
 # Load the pre-trained model
-model = joblib.load("/Users/admin/Desktop/FOMLPROJECT/decision_tree_fraud.pkl")
+model = joblib.load("decision_tree_fraud.pkl")
 
 # Load the label encoder for 'type' feature
-label_encoder = joblib.load("/Users/admin/Desktop/FOMLPROJECT/label_encoder.pkl")
+label_encoder = joblib.load("label_encoder.pkl")
 
 # Function to predict fraud
 def predict_fraud(transaction):
