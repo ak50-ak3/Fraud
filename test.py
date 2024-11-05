@@ -3,7 +3,6 @@ import pandas as pd
 import joblib
 import numpy as np
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.externals import joblib
 # Load the pre-trained model
 model = joblib.load("decision_tree_fraud.pkl")
 
